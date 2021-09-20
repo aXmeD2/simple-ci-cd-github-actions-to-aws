@@ -1,8 +1,8 @@
 name: Simple-CI-CD-Pipeline
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "axmed-flask-app-packeges"
-  EB_APPLICATION_NAME       : "Flaskapp"
-  EB_ENVIRONMENT_NAME       : "Flaskapp-env"
+  EB_APPLICATION_NAME       : "FlaskApp"
+  EB_ENVIRONMENT_NAME       : "FlaskApp-env"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "ap-northeast-3"
 
